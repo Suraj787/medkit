@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include medkit *.css
+recursive-include medkit *.csv
+recursive-include medkit *.html
+recursive-include medkit *.ico
+recursive-include medkit *.js
+recursive-include medkit *.json
+recursive-include medkit *.md
+recursive-include medkit *.png
+recursive-include medkit *.py
+recursive-include medkit *.svg
+recursive-include medkit *.txt
+recursive-exclude medkit *.pyc
